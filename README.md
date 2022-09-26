@@ -54,7 +54,7 @@
     <td> 제공된 데이터가 약 1300만개의 행에 달하는 큰 크기의 데이터로, 메모리 부족 문제와 서버다운 문제를 해결하기 위해 <b>전처리 - EDA 기반의 1차 필터링 - 모델링 변수중요도 기반의 2차 필터링 -모델링</b> 순서에 맞추어, 분석을 진행하였습니다. 자세한 분석 단계는 발표자료를 참고해주시기 바랍니다. <br/><br/>
           <b>🚩 분석 기법 및 절차</b><br/><br/>
           (1) PreProcessing & Feature engineering : EDA 를 통해 전처리를 진행한 후, 주어진 데이터셋을 바탕으로 '단가' 와 '접근성' 칼럼을 추가<br/><br/>
-          (2) Fist Filtering : 연구자료 서치 및 EDA 분석 결과를 바탕으로 1차 데이터 필터링을 진행<br/><br/>
+          (2) First Filtering : 연구자료 서치 및 EDA 분석 결과를 바탕으로 1차 데이터 필터링을 진행<br/><br/>
           (3) Second Filtering : Random Forest Regressor 로 '결재 고객수' 예측 모델링을 진행하여 변수 중요도를 시각화 해, 예측에 가장 많은 영향을 미치는 상위 변수를 기준으로 2차 필터링을 진행<br/><br/>
           (4) Clustering : 라이프 스타일 기반의 상품 추천을 위해 클러스터링을 진행 : 범주형 변수와 연속형 변수가 혼합된 데이터셋 → K-prototype Clustering 기법 적용<br/><br/>
           (5) Recommendataion : Item-based collaborative Filtering 기법으로 상품 간 코사인 유사도 테이블 생성 → 라이프 스타일 특징을 반영한 군집 기반 연관 상품 추천 진행 </td>
