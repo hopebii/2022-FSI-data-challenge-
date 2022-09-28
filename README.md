@@ -140,9 +140,20 @@
 
 - 예시 : 서울특별시 가족주택 위치 인근 편의점의 초중고 자녀를 둔 40대 고객이 와인/양주 품목을 구매할 때 연관 상품 추천 과정
 
-![image](https://user-images.githubusercontent.com/77307201/192688251-f9c00ff0-6f88-4d4f-95be-34fdd29ad26e.png)</br>
+</br> 
 
-![image](https://user-images.githubusercontent.com/77307201/192688296-e8d74570-2cb5-4320-869e-7f997f5717dc.png)</br> 
+<table>
+  <tr>
+    <td>
+    <img src = "https://user-images.githubusercontent.com/77307201/192688251-f9c00ff0-6f88-4d4f-95be-34fdd29ad26e.png">
+     </td>
+  </tr>
+  <tr>
+    <td>
+    <img src = "https://user-images.githubusercontent.com/77307201/192688296-e8d74570-2cb5-4320-869e-7f997f5717dc.png">
+    </td> 
+  </tr>
+</table>   
 
 → 군집별 고객의 특성을 반영하여, 보다 개인화 • 라이프스타일에 초점이 맞춰진 추천이 가능해짐 
 
