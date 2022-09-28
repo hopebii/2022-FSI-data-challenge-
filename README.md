@@ -138,19 +138,21 @@
 
 ## 앱 기능 시뮬레이션 
 
-- 예시 : 서울특별시 가족주택 위치 인근 편의점의 초중고 자녀를 둔 40대 고객이 와인/양주 품목을 구매할 때 연관 상품 추천 과정
+- 서울특별시 가족주택 위치 인근 편의점의 초중고 자녀를 둔 40대 고객이 와인/양주 품목을 구매할 때 연관 상품 추천 과정
 
 </br> 
 
 <table>
   <tr>
     <td>
-    <img src = "https://user-images.githubusercontent.com/77307201/192688251-f9c00ff0-6f88-4d4f-95be-34fdd29ad26e.png">
+    <img src = "https://user-images.githubusercontent.com/77307201/192688251-f9c00ff0-6f88-4d4f-95be-34fdd29ad26e.png"></br>
+    위치기반 서비스 동의와 회원가입 시 입력하는 정보로, 데이터 필터링을 자동화 할 수 있음 
      </td>
   </tr>
   <tr>
     <td>
-    <img src = "https://user-images.githubusercontent.com/77307201/192688296-e8d74570-2cb5-4320-869e-7f997f5717dc.png">
+    <img src = "https://user-images.githubusercontent.com/77307201/192688296-e8d74570-2cb5-4320-869e-7f997f5717dc.png"></br>
+    사용자가 와인을 선택한다면 와인과 유사도가 높은 반찬류, 안주류, 디저트류와 같은 범주의 상품들이 뜨게 되면서 / 추가 구매를 유도할 수 있게 됨 
     </td> 
   </tr>
 </table>   
