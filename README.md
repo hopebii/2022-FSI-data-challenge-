@@ -120,7 +120,8 @@
     </td>
   </tr>
   <tr>
-    <td width=25%><b>클러스터링 EDA 결과</b>
+    <td width=25%><b>클러스터링 EDA 결과</b></td>
+    <td>
       <img src = "https://user-images.githubusercontent.com/77307201/192688046-fd47efe0-4e4b-4ba0-83ea-94ee21d14c79.png">
     </td>
   </tr>
