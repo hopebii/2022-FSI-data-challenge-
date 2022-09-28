@@ -21,7 +21,7 @@
 <table width=80%>
   <tr><td ><b>팀 이름</b></td><td><b>프로젝트 기간</b></td><td><b>프로젝트원</b></td>
   </tr>
-  <tr><td>Cuz</td><td>2022.06.22 ~ 2022.09.26</td><td><A href="https://github.com/hopebii"> 이다현</A>, <A href="https://github.com/kangdy12"> 강다연</A>, <A href=" "> 김나현</A></td>
+  <tr><td>Cuz</td><td>2022.06.22 ~ 2022.09.26</td><td><A href="https://github.com/hopebii"> 이다현</A>, <A href="https://github.com/kangdy12"> 강다연</A>, <A href="https://github.com/nowionlyseedaylight"> 김나현</A></td>
   </tr>
 </table>
 <br/>
