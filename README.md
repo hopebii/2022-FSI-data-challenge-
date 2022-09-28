@@ -29,8 +29,13 @@
 
 
 ## 프로젝트 요약 
-자세한 문제점 도출 과정은 <a href=" "> 해당 파일</a>을 참고해주세요
+자세한 문제점 도출 과정은 <a href="BGF-CU 데이터 발표자료_ Cuz 팀.pdf"> 해당 파일</a>을 참고해주세요
 <br/>
+
+![image](https://user-images.githubusercontent.com/77307201/192686158-f1525e55-d037-4879-95d4-2775e547e35a.png)
+
+
+
 
 <table>
   <tr>
@@ -45,20 +50,29 @@
     <td width=20%><b>포켓 CU 리뷰 데이터 분석</b></td>
     <td> 현행 앱인 포켓 CU 에 추가할 기능을 기획한다는 점에서, 기존 포켓 CU 앱에 대한 사용자들의 만족 요인과 불만족 요인을 도출하고자  앱 리뷰 데이터를 분석을 진행하였습니다. <br/><br/>
           <b>🚩 분석 기법 및 절차</b><br/><br/>
-          (1) PORORO 자연어처리 패키지를 통한 리뷰 평점 재산출 및 감정 라벨링<br/><br/>
-          (2) 긍부정 키워드 워드클라우드 시각화<br/><br/>
-          (3) 이용자의 니즈 및 평가를 심층적으로 분석하기 위한 LDA Topic Modeling</td>
+          ① PORORO 자연어처리 패키지를 통한 리뷰 평점 재산출 및 감정 라벨링<br/><br/>
+          ② 긍부정 키워드 워드클라우드 시각화<br/><br/>
+          ③ 이용자의 니즈 및 평가를 심층적으로 분석하기 위한 LDA Topic Modeling</td>
   </tr>
     <tr>
     <td width=20%><b>BC카드 - BGF 사용자 데이터 분석</b></td>
     <td> 제공된 데이터가 약 1300만개의 행에 달하는 큰 크기의 데이터로, 메모리 부족 문제와 서버다운 문제를 해결하기 위해 <b>전처리 - EDA 기반의 1차 필터링 - 모델링 변수중요도 기반의 2차 필터링 -모델링</b> 순서에 맞추어, 분석을 진행하였습니다. 자세한 분석 단계는 발표자료를 참고해주시기 바랍니다. <br/><br/>
           <b>🚩 분석 기법 및 절차</b><br/><br/>
-          (1) PreProcessing & Feature engineering : EDA 를 통해 전처리를 진행한 후, 주어진 데이터셋을 바탕으로 '단가' 와 '접근성' 칼럼을 추가<br/><br/>
-          (2) First Filtering : 연구자료 서치 및 EDA 분석 결과를 바탕으로 1차 데이터 필터링을 진행<br/><br/>
-          (3) Second Filtering : Random Forest Regressor 로 '결재 고객수' 예측 모델링을 진행하여 변수 중요도를 시각화 해, 예측에 가장 많은 영향을 미치는 상위 변수를 기준으로 2차 필터링을 진행<br/><br/>
-          (4) Clustering : 라이프 스타일 기반의 상품 추천을 위해 클러스터링을 진행 : 범주형 변수와 연속형 변수가 혼합된 데이터셋 → K-prototype Clustering 기법 적용<br/><br/>
-          (5) Recommendataion : Item-based collaborative Filtering 기법으로 상품 간 코사인 유사도 테이블 생성 → 라이프 스타일 특징을 반영한 군집 기반 연관 상품 추천 진행 </td>
+          ① PreProcessing & Feature engineering : EDA 를 통해 전처리를 진행한 후, 주어진 데이터셋을 바탕으로 '단가' 와 '접근성' 칼럼을 추가<br/><br/>
+          ② First Filtering : 연구자료 서치 및 EDA 분석 결과를 바탕으로 1차 데이터 필터링을 진행<br/><br/>
+          ③ Second Filtering : Random Forest Regressor 로 '결재 고객수' 예측 모델링을 진행하여 변수 중요도를 시각화 해, 예측에 가장 많은 영향을 미치는 상위 변수를 기준으로 2차 필터링을 진행<br/><br/>
+          ④ Clustering : 라이프 스타일 기반의 상품 추천을 위해 클러스터링을 진행 : 범주형 변수와 연속형 변수가 혼합된 데이터셋 → K-prototype Clustering 기법 적용<br/><br/>
+          ⑤ Recommendataion : Item-based collaborative Filtering 기법으로 상품 간 코사인 유사도 테이블 생성 → 라이프 스타일 특징을 반영한 군집 기반 연관 상품 추천 진행 </td>
   </tr>
   </table>
 <br/>
+
+
+
+## 포켓 CU 앱 분석 
+현행 기능의 장단점을 분석하고 리뷰 텍스트를 분석한 후 얻은 인사이트를 바탕으로 기능 구성에 대한 방향성을 설립함
+<br/>
+
+
+
 
