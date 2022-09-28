@@ -108,7 +108,7 @@
 ## 2️⃣ 군집 기반 추천시스템 구현 
 - Filtering : EDA, 회귀 예측 변수중요도 결과 기준 변수로 필터링 
 - Clustering : K-prototype Clustering 으로 필터링 된 테이블을 다시 군집화 하여, 라이프 스타일 기반의 군집별 특징을 도출 
-- Recommendation : 클러스터링 기반의 연관 상품 추천 
+- Recommendation : Item-based Filtering 기법으로 접근하여 클러스터링 기반의 연관 상품 추천이 가능하도록 구현
 <br/>
 
 
